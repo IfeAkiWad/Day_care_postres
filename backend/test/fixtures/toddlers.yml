@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  birthday: 2021-10-05
+  eemergency_contact: MyString
+  phone: 1
+  allergy: MyString
+  daycare_id: 1
+
+two:
+  name: MyString
+  birthday: 2021-10-05
+  eemergency_contact: MyString
+  phone: 1
+  allergy: MyString
+  daycare_id: 1

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  birthday: 2021-10-05
+  gaurdian: MyString
+  allergy: MyString
+
+two:
+  name: MyString
+  birthday: 2021-10-05
+  gaurdian: MyString
+  allergy: MyString
