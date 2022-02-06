@@ -1,4 +1,4 @@
-class DaycaresController < ApplicationController
+class Api::class DaycaresController < ApplicationController
   before_action :set_daycare, only: [:show]
 
   # GET /daycares

@@ -1,4 +1,4 @@
-class ToddlersController < ApplicationController
+class Api::class ToddlersController < ApplicationController
   before_action :set_daycare
   before_action :set_toddler, only: [:show, :destroy]
 
