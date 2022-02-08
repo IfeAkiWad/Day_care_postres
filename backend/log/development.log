@@ -35387,3 +35387,183 @@ puma (4.3.10) lib/puma/server.rb:718:in `handle_request'
 puma (4.3.10) lib/puma/server.rb:472:in `process_client'
 puma (4.3.10) lib/puma/server.rb:328:in `block in run'
 puma (4.3.10) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/daycares" for ::1 at 2022-02-05 20:33:43 -0600
+Started GET "/toddlers" for ::1 at 2022-02-05 20:33:43 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/daycares"):
+  
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.10) lib/puma/configuration.rb:228:in `call'
+puma (4.3.10) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.10) lib/puma/server.rb:472:in `process_client'
+puma (4.3.10) lib/puma/server.rb:328:in `block in run'
+puma (4.3.10) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/toddlers"):
+  
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.10) lib/puma/configuration.rb:228:in `call'
+puma (4.3.10) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.10) lib/puma/server.rb:472:in `process_client'
+puma (4.3.10) lib/puma/server.rb:328:in `block in run'
+puma (4.3.10) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/daycares" for ::1 at 2022-02-05 20:33:47 -0600
+Started GET "/toddlers" for ::1 at 2022-02-05 20:33:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/daycares"):
+  
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.10) lib/puma/configuration.rb:228:in `call'
+puma (4.3.10) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.10) lib/puma/server.rb:472:in `process_client'
+puma (4.3.10) lib/puma/server.rb:328:in `block in run'
+puma (4.3.10) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/toddlers"):
+  
+actionpack (6.0.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.4.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.4.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.4.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.10) lib/puma/configuration.rb:228:in `call'
+puma (4.3.10) lib/puma/server.rb:718:in `handle_request'
+puma (4.3.10) lib/puma/server.rb:472:in `process_client'
+puma (4.3.10) lib/puma/server.rb:328:in `block in run'
+puma (4.3.10) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/daycares" for ::1 at 2022-02-07 22:44:48 -0600
+Started GET "/toddlers" for ::1 at 2022-02-07 22:44:48 -0600
+  [1m[35m (23.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (22.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ToddlersController#index as */*
+Processing by DaycaresController#index as */*
+  [1m[36mDaycare Load (0.5ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares"[0m
+  ↳ app/controllers/daycares_controller.rb:8:in `index'
+  [1m[36mDaycare Load (0.3ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/toddlers_controller.rb:41:in `set_daycare'
+No serializer found for resource: #<Daycare id: 1, name: "Sunny Day Care", address: "100 W 113th St. New York, NY 10026", created_at: "2022-02-03 02:23:59", updated_at: "2022-02-03 02:23:59">
+  [1m[36mToddler Load (8.0ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers"[0m
+  ↳ app/controllers/toddlers_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mToddler Load (0.3ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers" WHERE "toddlers"."daycare_id" = $1[0m  [["daycare_id", "1"]]
+[active_model_serializers]   ↳ app/controllers/daycares_controller.rb:8:in `index'
+No serializer found for resource: #<Toddler id: 1, name: "Mario Lopez", birthday: "2018-11-03", contact: "Leslie Lopez", phone: "2125557894", allergy: "none", daycare_id: "1", created_at: "2022-02-03 02:28:42", updated_at: "2022-02-03 02:28:42">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Toddler::ActiveRecord_Relation (0.69ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Daycare::ActiveRecord_Relation (27.73ms)
+Completed 200 OK in 57ms (Views: 18.5ms | ActiveRecord: 29.0ms | Allocations: 20961)
+
+
+Completed 200 OK in 50ms (Views: 29.6ms | ActiveRecord: 20.4ms | Allocations: 19533)
+
+
+Started GET "/daycares" for ::1 at 2022-02-07 22:44:56 -0600
+Started GET "/toddlers" for ::1 at 2022-02-07 22:44:56 -0600
+Processing by DaycaresController#index as */*
+Processing by ToddlersController#index as */*
+  [1m[36mDaycare Load (0.9ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares"[0m
+  ↳ app/controllers/daycares_controller.rb:8:in `index'
+No serializer found for resource: #<Daycare id: 1, name: "Sunny Day Care", address: "100 W 113th St. New York, NY 10026", created_at: "2022-02-03 02:23:59", updated_at: "2022-02-03 02:23:59">
+  [1m[36mDaycare Load (1.4ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/toddlers_controller.rb:41:in `set_daycare'
+  [1m[36mToddler Load (0.4ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers"[0m
+[active_model_serializers]   [1m[36mToddler Load (2.1ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers" WHERE "toddlers"."daycare_id" = $1[0m  [["daycare_id", "1"]]
+[active_model_serializers]   ↳ app/controllers/daycares_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Daycare::ActiveRecord_Relation (7.0ms)
+  ↳ app/controllers/toddlers_controller.rb:8:in `index'
+No serializer found for resource: #<Toddler id: 1, name: "Mario Lopez", birthday: "2018-11-03", contact: "Leslie Lopez", phone: "2125557894", allergy: "none", daycare_id: "1", created_at: "2022-02-03 02:28:42", updated_at: "2022-02-03 02:28:42">
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 3.0ms | Allocations: 4921)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Toddler::ActiveRecord_Relation (1.07ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 1.7ms | Allocations: 5472)
+
+
+Started GET "/daycares" for ::1 at 2022-02-07 22:47:18 -0600
+Started GET "/toddlers" for ::1 at 2022-02-07 22:47:18 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ToddlersController#index as */*
+  [1m[35m (7.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DaycaresController#index as */*
+  [1m[36mDaycare Load (0.8ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares"[0m
+  ↳ app/controllers/daycares_controller.rb:8:in `index'
+  [1m[36mDaycare Load (0.9ms)[0m  [1m[34mSELECT "daycares".* FROM "daycares" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/toddlers_controller.rb:41:in `set_daycare'
+No serializer found for resource: #<Daycare id: 1, name: "Sunny Day Care", address: "100 W 113th St. New York, NY 10026", created_at: "2022-02-03 02:23:59", updated_at: "2022-02-03 02:23:59">
+  [1m[36mToddler Load (0.3ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers"[0m
+  ↳ app/controllers/toddlers_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mToddler Load (0.7ms)[0m  [1m[34mSELECT "toddlers".* FROM "toddlers" WHERE "toddlers"."daycare_id" = $1[0m  [["daycare_id", "1"]]
+[active_model_serializers]   ↳ app/controllers/daycares_controller.rb:8:in `index'
+No serializer found for resource: #<Toddler id: 1, name: "Mario Lopez", birthday: "2018-11-03", contact: "Leslie Lopez", phone: "2125557894", allergy: "none", daycare_id: "1", created_at: "2022-02-03 02:28:42", updated_at: "2022-02-03 02:28:42">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Toddler::ActiveRecord_Relation (0.71ms)
+Completed 200 OK in 36ms (Views: 10.3ms | ActiveRecord: 20.3ms | Allocations: 20595)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Daycare::ActiveRecord_Relation (19.33ms)
+Completed 200 OK in 34ms (Views: 15.9ms | ActiveRecord: 17.5ms | Allocations: 19524)
+
+
